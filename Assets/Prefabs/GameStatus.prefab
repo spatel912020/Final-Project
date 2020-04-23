@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5142404091762359431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5142404091762359429}
+  - component: {fileID: 5142404091762359430}
+  m_Layer: 0
+  m_Name: GameStatus
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5142404091762359429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5142404091762359431}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -15.26, y: 14.78, z: -28.583569}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5142404091762359430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5142404091762359431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae3b9c770e8d014ba99e15f5e01771f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 30
+  health: 100
+  lives: 3
+  tiles:
+    serializedVersion: 2
+    m_Bits: 512
+  roomGen: {fileID: 0}
+  radius: 3.5
+  startingPlatform: {fileID: 9144829345169290799, guid: 14ecf121b9491e24aba17fac17ace3bd,
+    type: 3}
+  playerY: 2
+  player: {fileID: 1023250399798014711, guid: 231ffd32280eee74cad63d4b91a9a0e6, type: 3}
+  exit: {fileID: 5906240235833792087, guid: a86d929bd9345ef49964019ab0e68ce4, type: 3}
+  sceneLoaded: 0
+  graphCreated: 0
+  powerUp: 0
+  powerUpSpawned: 0
