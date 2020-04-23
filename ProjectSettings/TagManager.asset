@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Tile
+  - Exit
+  - Exit_tag
+  - Room_Center
+  - POWERUP
+  - Room
   layers:
   - Default
   - TransparentFX
@@ -14,9 +20,9 @@ TagManager:
   - 
   - 
   - Room
-  - 
-  - 
-  - 
+  - Tile
+  - Enemy
+  - Player
   - 
   - 
   - 
@@ -40,4 +46,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Canvas
+    uniqueID: 3927736703
+    locked: 0
+  - name: Background
+    uniqueID: 3242739591
     locked: 0
